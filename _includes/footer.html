@@ -2,9 +2,19 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h4><strong>{{ site.owner }}</strong>
+        <div class="col-sm-4 text-center">
+          <a href="http://www.associazionedschola.it/"><img src="../img/dschola_1.jpeg" align="middle" style="max-height: 100%; max-width: 100%;" bottom:"0"></a>
+        </div>
+        <div class="col-sm-4 text-center">
+          <a href="http://fablabforkids.it"><img src="../img/kids.png" align="middle" style="max-height: 50%; max-width: 50%;"></a>
+
+        </div>
+        <div class="col-sm-4 text-center">
+          <a href="http://www.toolboxoffice.it/en/"><img src="../img/tlbx.png" align="middle" style="max-height: 50%; max-width: 50%;"></a>
+        </div>
+      <!--  <h4><strong>{{ site.owner }}</strong>
         </h4>
-        <p>ciao
+        <p>
           {% for address in site.address %}
           {{ address.line }}<br>
           {% endfor %}
@@ -15,7 +25,7 @@
           </li>
         </ul>
         <br>
-        <ul class="list-inline">
+      <!--  <ul class="list-inline">
           <li>
             <a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
           </li>
@@ -25,7 +35,7 @@
           <li>
             <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a>
           </li>
-        </ul>
+        </ul>-->
         <hr class="small">
         <p class="text-muted">Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
       </div>
